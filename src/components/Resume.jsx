@@ -82,7 +82,7 @@ function Resume() {
         <button className={classes.buttonBuildNew} onClick={refreshPage}>
           Build New
         </button>
-        <Pdf targetRef={ref} filename="code-example.pdf">
+        <Pdf targetRef={ref} filename="myresume.pdf">
           {({ toPdf }) => (
             <button onClick={toPdf} className={classes.buttonDownload}>
               Download Resume
