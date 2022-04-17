@@ -29,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
   },
   resume: {
     padding: "3rem",
+    width: "35rem",
     boxShadow: "0 0.5rem 1rem 0 rgb(0 0 0 / 10%)",
     marginBottom: "1rem",
     margin: "1rem",
