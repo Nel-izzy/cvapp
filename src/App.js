@@ -65,7 +65,7 @@ function App() {
             margin: "2rem",
           }}
         >
-          Resume Builder
+          CV Application
         </Typography>
         <Questions />
       </div>

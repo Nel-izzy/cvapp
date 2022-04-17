@@ -51,7 +51,7 @@ function Resume() {
       <div ref={ref} className={classes.resume}>
         {answers.map((answer) => {
           return (
-            <div>
+            <div key={answer.resumeFieldId}>
               {answer.resumeFieldId === "name" ||
               answer.resumeFieldId === "email" ||
               answer.resumeFieldId === "address" ||
